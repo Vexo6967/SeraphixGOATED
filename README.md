@@ -1,8 +1,8 @@
 # WaveHaxModuleandInjector
 
-**1, after you create your executor, make sure its debug and x64 (any cpu -> x64 basicly)
+1, after you create your executor, make sure its debug and x64 (any cpu -> x64 basicly)
 2, open files, your x64 debug folder and paste there Module with WaveLoader
-3, Codes for Execute and Injector are listed here:**
+3, Codes for Execute and Injector are listed here:
 // -----Injector:-----
 string InjectorPath = System.IO.Path.Combine(Application.StartupPath, "Injector.exe");
 
@@ -30,4 +30,4 @@ System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(Injecto
                 MessageBox.Show("Failed to Execute script: " + ex.Message, "WaveHax", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
-**4, Make sure to add those codes into your buttons (dont forget to change richTextBox1.Text to your monaco if you have one.)system**
+4, Make sure to add those codes into your buttons (dont forget to change richTextBox1.Text to your monaco if you have one.)system
